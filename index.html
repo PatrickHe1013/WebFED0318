@@ -5,40 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>台灣Youtube團體推薦</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
-<body>
-    <header>
-        <h1>
-            <strong>台灣Youtube團體推薦</strong>
-        </h1>
-        <video width="320" height="240" controls>
+<body id="background-color">
+    <header class="center range head-position">
+        <div id="headcolor" style="margin: 0 auto;">
+            <div class="head-position">
+                <h1>
+                    <strong>台灣Youtube團體推薦</strong>
+                </h1>
+            </div>
+        </div>
+
+        <video width="720" height="360" controls>
             <source src="./video/video1.mp4">
         </video>
+        <br>
         <audio controls>
             <source src="./audio/audio1.mp3">
         </audio>
         <br>
-        <ul>
-            <li>
-                <a href="./web1.html", style="font-size: x-large;">上班不要看 NSFW</a>
-            </li>
-            <br>
-            <img src="./image/1-1.jpg", alt="上班不要看 NSFW", width="150px">
-            <br><br><br>
-            <li>
-                <a href="./web2.html", style="font-size: x-large;">木曜4超玩</a>
-            </li>
-            <br>
-            <img src="./image/2-1.png", alt="木曜4超玩", width="150px">
-            <br><br><br>
-            <li>
-                <a href="./web3.html", style="font-size: x-large;">STR Network</a>
-            </li>
-            <br>
-            <img src="./image/3-1.jpg", alt="STR Network", width="150px">
-        </ul>
     </header>
+    <br><br>
+
+    <section>
+        <div class="list-flex">
+            <div id="head-h" class="center">
+                <a href="./web1.html" , style="font-size: x-large;" , class="font-color">上班不要看 NSFW</a>
+                <br><br>
+                <img src="./image/1-1.jpg" , alt="上班不要看 NSFW" , width="150px">
+            </div>
+            <div id="head-h" class="center">
+                <a href="./web2.html" , style="font-size: x-large;" , class="font-color">木曜4超玩</a>
+                <br><br>
+                <img src="./image/2-1.png" , alt="木曜4超玩" , width="150px">
+                </ul>
+            </div>
+            <div id="head-h" class="center">
+                <a href="./web3.html" , style="font-size: x-large;" , class="font-color">STR Network</a>
+                <br><br>
+                <img src="./image/3-1.jpg" , alt="STR Network" , width="150px">
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

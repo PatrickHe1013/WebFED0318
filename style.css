@@ -1,0 +1,130 @@
+/* #background-color{background-color: rgb(0, 0, 0);} */
+#background-color {
+    background-color: black;
+    background-image: url(./image/background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#headcolor {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid black;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: black; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#headcolor2 {
+    background-color: rgb(255, 255, 255);
+    background-image: url(./image/Logo_of_YouTube.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-bottom: 2px solid black;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: black; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#head-text{
+    margin-inline-start: 21%;
+}
+
+#head-h{
+    margin: 0 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+.range {
+    width: fit-content;
+    background-color: hsl(0, 76%, 64%);
+    border-radius: 20px;
+    /* padding: 5px; */
+}
+
+.head-position {
+    margin: 0 auto;
+}
+
+/* .head-flex{
+    display: flex;
+    justify-content: center;
+} */
+
+.head-a{
+    transform: translateX(100px);
+    height: 40px;
+    width: 50px;
+    color: black;
+    background-color: rgb(200, 200, 255);
+    border: 2px solid rgb(66, 66, 66);
+    border-radius: 10px;
+    border-left: 5px solid black;
+}
+
+.nostyle {
+    list-style: none;
+}
+
+.list-flex {
+    display: flex;
+    /* flex-direction:row; */
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.list-margin {
+    margin-right: 60px;
+}
+
+.font-color {
+    color: white;
+}
+
+.font-color2 {
+    color: black;
+}
+
+.menu-li {
+    background-color: rgb(200, 200, 255);
+    list-style-type: none;
+    border: 2px solid rgb(66, 66, 66);
+    border-radius: 10px;
+    border-left: 5px solid black;
+    display: inline-block;
+    width: 180px;
+}
+
+.nounderline {
+    text-decoration: none;
+}
+
+.textbox {
+    width: 600px;
+    margin: auto;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    transform: scale(1.8);
+    margin-top: 12%;
+}
+
+/* 文繞圖 */
+.img1{
+    float: left;
+    margin-right: 20px;
+}
