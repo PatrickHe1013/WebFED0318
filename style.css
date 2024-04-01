@@ -109,8 +109,8 @@
 }
 
 .textbox {
-    width: 600px;
-    margin: auto;
+    width: 400px;
+    font-size: larger;
 }
 
 .material-symbols-outlined {
@@ -124,7 +124,19 @@
 }
 
 /* 文繞圖 */
+.article-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .img1{
     float: left;
     margin-right: 20px;
+}
+.img2{
+    float: right;
+    margin-left: 20px;
+}
+.clear{
+    clear: both;
 }
